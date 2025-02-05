@@ -16,7 +16,7 @@ def show_timesheet():
         for task in completed_tasks:
             print(f"{task[0]}: {task[1].strfttime('%H:%M:%S')} - {task[2].strfttime('%H:%M:%S')} (Duration: {task[3]})")
 
-show_timesheet()
+##show_timesheet()
 
 def show_current_task():
     """ Show the end-user the current running tasks. """
