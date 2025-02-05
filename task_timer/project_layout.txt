@@ -1,0 +1,21 @@
+
+Files: 
+
+__main__.py
+__init__.py
+interface.py
+user_input.py
+time_logic.py
+timesheet.py
+
+task-timer project
+│
+├── task_timer/
+│   ├── __init__.py      # For initialization 
+│   ├── __main__.py      # Run the program logic
+│   ├── user_input.py    # Handles all the user interaction
+│   ├── interface.py     # Handles UI formatting for end-user
+│   └── timesheet.py     # Handles generating and printing the timesheet
+│
+├── pyproject.toml       # Project dependencies and settings
+├── README.md            # Project documentation           
