@@ -5,8 +5,7 @@ __main__.py
 __init__.py
 interface.py
 user_input.py
-time_logic.py
-timesheet.py
+utils.py
 
 task-timer project
 │
@@ -15,7 +14,7 @@ task-timer project
 │   ├── __main__.py      # Run the program logic
 │   ├── user_input.py    # Handles all the user interaction
 │   ├── interface.py     # Handles UI formatting for end-user
-│   └── timesheet.py     # Handles generating and printing the timesheet
+│   └── utils.py         # Handles circular import error.
 │
 ├── pyproject.toml       # Project dependencies and settings
 ├── README.md            # Project documentation           
